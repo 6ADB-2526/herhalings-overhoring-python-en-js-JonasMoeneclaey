@@ -3,16 +3,11 @@ getal2 = int(input("geef een nog getal op."))
 
 kiesOperator = input("kies een operator tussen deze vier: +, -, *, /. ")
 
-optellen = "+"
-aftrekken = "-"
-vermenigvuldigen = "*"
-delen = "/"
-
-if kiesOperator == optellen:
+if kiesOperator == "+":
     print(getal1 + getal2)
-elif kiesOperator == aftrekken:
+elif kiesOperator == "-":
     print(getal1-getal2)
-elif kiesOperator == vermenigvuldigen:
+elif kiesOperator == "*":
     print(getal1*getal2)
-elif kiesOperator == delen:
+elif kiesOperator == "/":
     print(getal1/getal2)
