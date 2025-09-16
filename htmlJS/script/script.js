@@ -10,3 +10,7 @@
 // afvinken van een todo
 
 // verwijderen van een todo
+
+const todoList = document.querySelector("#todo-list")
+const addbtn = document.querySelector("#addbtn")
+
