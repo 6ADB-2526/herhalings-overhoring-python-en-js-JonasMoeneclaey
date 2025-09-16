@@ -1,6 +1,6 @@
 def checkIfPositive(getal1):
     while True:
-        if getal1 // 1:
+        if getal1 >= 0:
             break
         else:
             getal1 = int(input("geef een positief getal op "))
